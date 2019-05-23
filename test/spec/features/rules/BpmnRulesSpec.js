@@ -1329,7 +1329,8 @@ describe('features/modeling/rules - BpmnRules', function() {
         'MessageCatchEvent',
         'TimerCatchEvent',
         'SignalCatchEvent',
-        'ConditionalCatchEvent'
+        'ConditionalCatchEvent',
+        'IntermediateThrowEventWithConnections'
       ];
 
       var events = attachableEvents.map(function(eventId) {
